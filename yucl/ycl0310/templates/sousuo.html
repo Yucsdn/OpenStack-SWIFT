@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>搜索</title>
+</head>
+<body>
+    <div style="position:absolute; left:50px; top:20px">
+        <img src="{% static 'images/wulian.png' %}" style="width:1200px; height:460px">
+        <form action="/app/home/see_file">
+            <input type="submit" value="点击返回查看全部文件" style="width:1200px; height:80px">
+        </form>
+    </div>
+</body>
+</html>
